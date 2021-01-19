@@ -9,7 +9,7 @@ fn main() {
     let matches= App::new("binary kmer emitter")
                           .version("0.1")
                           .author("Erik Garrison <erik.garrison@gmail.com>")
-                          .about("Emits 32-bit kmers, using a 2-bit DNA alphabet")
+                          .about("Emits 8, 16, 32 and 64-bit kmers using a 2-bit DNA alphabet")
                           .arg(Arg::with_name("kmer")
                                .short("k")
                                .long("kmer-length")
